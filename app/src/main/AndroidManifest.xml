@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.johndon.cmcc.com.util.caipiao">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/caipiao_1"
+        android:label="@string/app_title"
+        android:roundIcon="@drawable/caipiao_1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:replace="android:label">
+        <activity android:name="com.johndon.cmcc.com.util.caipiao.MainActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="com.johndon.cmcc.com.util.caipiao.ChooseTypeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.johndon.cmcc.com.util.caipiao.DetailActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+</manifest>

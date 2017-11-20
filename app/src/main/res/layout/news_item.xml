@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="5dp"
+    app:contentPadding="2dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/padding_rl"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/padding_rl"
+        android:gravity="center|left"
+        android:id="@+id/tv_title"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/padding_rl"
+        android:layout_marginTop="@dimen/padding_rl"
+        android:gravity="center|right"
+        android:layout_marginBottom="@dimen/padding_rl"
+        android:id="@+id/tv_date"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -113,7 +113,7 @@
       public static <fields>;
 }
 
--keep public com.johndon.cmcc.com.util.caipiao.** {
+-keep public class com.johndon.cmcc.com.util.caipiao.** {
     public void set*(***);
     public *** get*();
     public <fields>;

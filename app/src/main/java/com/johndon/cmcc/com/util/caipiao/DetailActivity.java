@@ -112,7 +112,7 @@ public class DetailActivity extends AppCompatActivity {
             Object[] object = ja.toArray();
             number = new StringBuilder();
             for (Object s : object) {
-                number.append(((String) s));
+                number.append(((String) s)+" ");
             }
             mListDetail.addAll(JSONArray.parseArray(result.getString("lotteryDetails"),AwardDetail.class));
             Log.d("TAG", "dealResult: "+mgs);
